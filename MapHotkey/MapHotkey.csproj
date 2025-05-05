@@ -38,7 +38,7 @@
       <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\shapez 2\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="EquinoxsModUtils">
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\shapez 2\BepInEx\plugins\EquinoxsModUtils\EquinoxsModUtils.dll</HintPath>
+      <HintPath>..\EquinoxsModUtils\bin\Release\EquinoxsModUtils.dll</HintPath>
     </Reference>
     <Reference Include="SPZGameAssembly_publicized">
       <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\shapez 2\shapez 2_Data\Managed\publicized_assemblies\SPZGameAssembly_publicized.dll</HintPath>
@@ -65,6 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Patches\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EquinoxsDebugTools\EquinoxsDebugTools.csproj">
+      <Project>{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}</Project>
+      <Name>EquinoxsDebugTools</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

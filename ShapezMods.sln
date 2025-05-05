@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoNorth", "AutoNorth\Auto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquinoxsModUtils", "EquinoxsModUtils\EquinoxsModUtils.csproj", "{A197A340-3447-42F9-9CBF-125DF5F6A400}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquinoxsDebugTools", "EquinoxsDebugTools\EquinoxsDebugTools.csproj", "{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A197A340-3447-42F9-9CBF-125DF5F6A400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A197A340-3447-42F9-9CBF-125DF5F6A400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A197A340-3447-42F9-9CBF-125DF5F6A400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
