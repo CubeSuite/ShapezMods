@@ -55,6 +55,15 @@ namespace EquinoxsDebugTools
                 }
             }
 
+            /// <summary>
+            /// Blocks calls to PacedLog() from the calling function for delaySeconds
+            /// </summary>
+            /// <param name="delaySeconds">How long to block calls for</param>
+            public static void SetPacedLogDelay(float delaySeconds) {
+                string callingFunction = GetCallingFunction();
+                functionLogBlockingLimits[callingFunction] = DateTime.Now.AddSeconds(delaySeconds);
+            }
+
             // Internal Functions
 
             internal static void AddConfigEntry(string key, ConfigEntry<bool> entry) {
