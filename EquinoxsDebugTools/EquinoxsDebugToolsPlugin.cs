@@ -16,7 +16,7 @@ namespace EquinoxsDebugTools
     {
         internal const string MyGUID = "com.equinox.EquinoxsDebugTools";
         private const string PluginName = "EquinoxsDebugTools";
-        private const string VersionString = "1.0.0";
+        private const string VersionString = "1.0.1";
 
         private static readonly Harmony Harmony = new Harmony(MyGUID);
         internal static ManualLogSource Log = new ManualLogSource(PluginName);

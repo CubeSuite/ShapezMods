@@ -15,7 +15,7 @@ namespace EquinoxsModUtils
     {
         internal const string MyGUID = "com.equinox.EquinoxsModUtils";
         private const string PluginName = "EquinoxsModUtils";
-        private const string VersionString = "1.0.0";
+        private const string VersionString = "1.1.0";
 
         private static readonly Harmony Harmony = new Harmony(MyGUID);
         internal static ManualLogSource Log = new ManualLogSource(PluginName);

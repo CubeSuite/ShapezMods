@@ -60,8 +60,16 @@
     <Compile Include="AutoNorthPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Patches\" />
+    <ProjectReference Include="..\EquinoxsDebugTools\EquinoxsDebugTools.csproj">
+      <Project>{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}</Project>
+      <Name>EquinoxsDebugTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EquinoxsModUtils\EquinoxsModUtils.csproj">
+      <Project>{A197A340-3447-42F9-9CBF-125DF5F6A400}</Project>
+      <Name>EquinoxsModUtils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
