@@ -34,6 +34,23 @@ namespace EquinoxsModUtils
             }
 
             /// <summary>
+            /// Uses the provided info to get the value of a private property.
+            /// </summary>
+            /// <typeparam name="T">The class that the property belongs to</typeparam>
+            /// <param name="info">The details of the property and the class</param>
+            /// <returns>The value of the property if successful (it can be null), default(T) otherwise</returns>
+            public static object GetPrivateProperty<T>(FieldSearchInfo<T> info) {
+                PropertyInfo property = info.Type.GetProperty(info.fieldName, info.Flags);
+                if (property == null) {
+                    LogEMUError($"Could not find the property '{info.fieldName}' under type '{info.Type}'. Aborting attempt to get value");
+                    return default;
+                }
+
+                if (info.classIsStatic) return property.GetValue(null);
+                else return property.GetValue(info.instance);
+            }
+
+            /// <summary>
             /// Uses the provided info to set the value of a private field.
             /// </summary>
             /// <typeparam name="T">The class that the private field belongs to</typeparam>
