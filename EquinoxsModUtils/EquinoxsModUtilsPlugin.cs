@@ -26,22 +26,8 @@ namespace EquinoxsModUtils
             gameObject.hideFlags = HideFlags.HideAndDontSave;
             Logger.LogInfo($"PluginName: {PluginName}, VersionString: {VersionString} is loading...");
 
-            ApplyPatches();
-
-            // ToDo: Add loading code here
-
             Logger.LogInfo($"PluginName: {PluginName}, VersionString: {VersionString} has loaded.");
             Log = Logger;
-        }
-
-        private void Update() {
-            // ToDo: Delete if not needed
-        }
-
-        // Private Functions
-
-        private void ApplyPatches() {
-            // Harmony.CreateAndPatchAll(typeof(ExampleClassPatch))
         }
     }
 }
