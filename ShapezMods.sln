@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquinoxsModUtils", "Equinox
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquinoxsDebugTools", "EquinoxsDebugTools\EquinoxsDebugTools.csproj", "{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanAsteroids", "CleanAsteroids\CleanAsteroids.csproj", "{1710F096-DC16-463A-9C30-BB275CADCD02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmarterStackSim", "SmarterStackSim\SmarterStackSim.csproj", "{2DD901F0-1BEC-4EED-BB8A-88B74BA90F6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9BB4391-06CA-44B2-ABE0-784A8A4EC4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1710F096-DC16-463A-9C30-BB275CADCD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1710F096-DC16-463A-9C30-BB275CADCD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1710F096-DC16-463A-9C30-BB275CADCD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1710F096-DC16-463A-9C30-BB275CADCD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD901F0-1BEC-4EED-BB8A-88B74BA90F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD901F0-1BEC-4EED-BB8A-88B74BA90F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD901F0-1BEC-4EED-BB8A-88B74BA90F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD901F0-1BEC-4EED-BB8A-88B74BA90F6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
